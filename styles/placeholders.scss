@@ -1,0 +1,31 @@
+ @use 'variables' as v;
+ 
+ %hover-black {
+    &:hover {
+        color: v.$color__black;
+        cursor: pointer;
+
+    }
+ }
+ %hover-light {
+     &:hover {
+         color: v.$color__white;
+         cursor: pointer;
+
+     }
+ }
+  %hover-black-icon {
+      &:hover {
+        stroke: v.$color__black;
+          cursor: pointer;
+      }
+  }
+
+$media__xxl:1400px;
+$media__xl: 1200px;
+$media__lg: 992px;
+$media__md: 768px;
+$media__sm: 576px;
+$media__min:428px;
+
+
